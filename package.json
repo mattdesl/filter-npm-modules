@@ -1,0 +1,49 @@
+{
+  "name": "filter-npm-modules",
+  "version": "1.0.0",
+  "description": "filters a list of require paths to only public npm modules",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "is-npm-module": "^1.0.0",
+    "relative-require-regex": "^1.0.0",
+    "require-package-name": "^2.0.0",
+    "uniq": "^1.0.1",
+    "validate-npm-package-name": "^2.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "filter",
+    "list",
+    "of",
+    "modules",
+    "require",
+    "requires",
+    "detective",
+    "public",
+    "valid",
+    "module",
+    "package",
+    "packages",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/filter-npm-modules.git"
+  },
+  "homepage": "https://github.com/mattdesl/filter-npm-modules",
+  "bugs": {
+    "url": "https://github.com/mattdesl/filter-npm-modules/issues"
+  }
+}
